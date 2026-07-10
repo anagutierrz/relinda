@@ -479,3 +479,26 @@
   .collab-strip{padding:20px}
   .manifesto-strip{grid-template-columns:1fr; padding:0 20px 34px}
 }
+
+
+/* ===== Lighter digital-store adjustments ===== */
+.hero-clean{position:relative; overflow:hidden; min-height:640px}
+.hero-runner-glass{position:absolute; right:-2%; top:50%; transform:translateY(-50%); width:min(48vw,650px); opacity:.22; filter:saturate(1.05) contrast(1.02); pointer-events:none; z-index:1; mix-blend-mode:multiply}
+.hero-clean .hero-copy, .hero-clean .hero-stage{position:relative; z-index:2}
+.hero-clean .hero-copy p{max-width:520px}
+.hero-clean .hero-stage{margin-right:1vw}
+.compact-strip{margin-top:0; padding-top:12px}
+.compact-products .section-head h2, .circle-compact .section-head h2, .events-compact .section-head h2{font-size:clamp(30px,4vw,54px)}
+.circle-compact .section-head p, .events-compact .section-head p{max-width:620px; margin-left:auto; margin-right:auto}
+.teaser-news{margin:0 6vw 6vw; border-radius:34px}
+.teaser-news h2{font-size:clamp(28px,3.2vw,48px)}
+.events-compact .events-grid{margin-top:8px}
+.events-compact .event-card{padding:24px; text-align:left}
+.split img[src="relinda-logo.png"]{max-width:420px; margin:0 auto; padding:26px; background:white; border-radius:28px; box-shadow:0 18px 40px rgba(116,88,90,.08)}
+.benefit-block img[src="runner-model.png"]{object-fit:cover; object-position:right center; background:#f7f3f2}
+@media(max-width:980px){.hero-runner-glass{width:min(68vw,520px); right:-10%; opacity:.18}}
+@media(max-width:640px){
+  .hero-clean{min-height:auto}
+  .hero-runner-glass{width:88vw; right:-24%; top:58%; opacity:.14}
+  .teaser-news{margin:0 20px 34px}
+}
