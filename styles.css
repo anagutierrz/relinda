@@ -502,3 +502,50 @@
   .hero-runner-glass{width:88vw; right:-24%; top:58%; opacity:.14}
   .teaser-news{margin:0 20px 34px}
 }
+
+
+/* ===== Hero runner placement refinements ===== */
+.hero-clean{min-height:620px; grid-template-columns:1.02fr .98fr; gap:3vw}
+.hero-clean .hero-copy{padding-right:20px}
+.hero-runner-panel{
+  position:absolute;
+  right:0;
+  top:0;
+  bottom:0;
+  width:min(34vw,520px);
+  z-index:1;
+  pointer-events:none;
+  overflow:hidden;
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+}
+.hero-runner-glass{
+  position:relative;
+  width:100%;
+  height:78%;
+  object-fit:cover;
+  object-position:70% center;
+  opacity:.18;
+  filter:saturate(1.03) contrast(1.01);
+  mix-blend-mode:multiply;
+  mask-image:linear-gradient(to left, rgba(0,0,0,.92) 52%, rgba(0,0,0,.4) 82%, rgba(0,0,0,0) 100%);
+  -webkit-mask-image:linear-gradient(to left, rgba(0,0,0,.92) 52%, rgba(0,0,0,.4) 82%, rgba(0,0,0,0) 100%);
+  border-radius:34px 0 0 34px;
+}
+.hero-clean .hero-stage{z-index:2; min-height:520px}
+.hero-clean .orb{width:min(86%,500px)}
+.hero-clean .hero-copy h1{max-width:9ch}
+.hero-clean .mini-stats{max-width:580px}
+@media(max-width:1200px){
+  .hero-runner-panel{width:min(31vw,420px)}
+  .hero-runner-glass{height:72%; opacity:.16}
+}
+@media(max-width:980px){
+  .hero-clean{grid-template-columns:1fr}
+  .hero-runner-panel{width:min(44vw,340px); top:auto; bottom:6%; height:48%; opacity:1}
+  .hero-runner-glass{height:100%; object-position:72% center; opacity:.12}
+}
+@media(max-width:640px){
+  .hero-runner-panel{display:none}
+}
