@@ -1,14 +1,9 @@
-# Relinda — versión disruptiva, elegante y creativa
+# Relinda — Fashion Wellness v2
 
-Esta versión refuerza la dirección visual de marca con un enfoque más editorial y premium.
+Versión con enfoque más internacional y aspiracional.
 
 ## Ajustes aplicados
-- Home más disruptivo y aspiracional.
-- Mejor jerarquía visual.
-- Estilo elegante con energía creativa.
-- Diseño responsive para desktop y móvil.
-- Archivos `styles.css` y `script.js` incluidos.
-- Estructura lista para adaptación a WooCommerce + Stripe.
-
-## Recomendación
-Usar esta versión como base visual para montar el tema en WordPress + WooCommerce en Hostinger.
+- Concepto visual fashion-wellness.
+- Diseño más disruptivo, editorial y elegante.
+- Precio actualizado de las gomitas: DOP$1,850.
+- Mantiene estructura responsive, tienda, carrito y base para WooCommerce + Stripe.

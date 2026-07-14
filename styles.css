@@ -1,17 +1,17 @@
 
 :root{
-  --bg:#fbf7f5;
+  --bg:#faf6f4;
   --surface:#ffffff;
-  --surface-2:#fff4f1;
-  --ink:#1f1720;
-  --muted:#695e67;
-  --line:#ead8d4;
-  --soft:#f6ebe8;
-  --soft-2:#f2dfe7;
-  --primary:#8c3eff;
-  --primary-2:#ff6b8a;
-  --accent:#ffad5c;
-  --shadow:0 18px 50px rgba(86,50,77,.08);
+  --surface-2:#fff3ef;
+  --ink:#171218;
+  --muted:#6b6068;
+  --line:#ead8d7;
+  --soft:#f8ece8;
+  --soft-2:#f3dce8;
+  --primary:#7a5cff;
+  --primary-2:#ff5f94;
+  --accent:#ffb36b;
+  --shadow:0 18px 50px rgba(89,49,78,.08);
   --radius:28px;
 }
 *{box-sizing:border-box}
@@ -222,3 +222,17 @@ main{overflow:hidden}
   .mobile-bottom-bar a,.mobile-bottom-bar button{padding:11px 8px;border-radius:999px;background:var(--soft);font-weight:900;color:var(--ink)}
   .mobile-bottom-bar a:last-child{background:var(--ink);color:#fff}
 }
+
+
+/* fashion wellness refinements */
+.dynamic-hero:after{content:"";position:absolute;right:9%;top:12%;width:140px;height:140px;border-radius:32px;background:linear-gradient(135deg, rgba(122,92,255,.16), rgba(255,95,148,.16));filter:blur(2px);transform:rotate(18deg);opacity:.9;pointer-events:none}
+.hero-copy h1{max-width:10ch}
+.hero-copy p{max-width:620px}
+.editorial-grid article,.product-card,.event-card,.bundle,.value-daily,.ideal,.disclaimer,.recommended,.newsletter,.woo-card,.calendar-board,.calendar-shell,.detail-grid article{backdrop-filter:blur(8px)}
+.product-card:hover{transform:translateY(-8px) rotate(-.35deg)}
+.product-tag{background:rgba(255,255,255,.92)}
+.btn.primary,.price-row button,.checkout,.contact-card button{box-shadow:0 16px 34px rgba(122,92,255,.22)}
+.newsletter{background:linear-gradient(135deg,#171218,#4f295e 58%, #ff5f94 140%)}
+.section-head h2,.page-hero h1,.hero-copy h1{max-width:12ch}
+.value-grid span{background:linear-gradient(180deg,#fff,#f9efec)}
+.mobile-bottom-bar a:last-child{background:linear-gradient(135deg,var(--ink),#4f295e)}

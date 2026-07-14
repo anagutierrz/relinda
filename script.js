@@ -1,8 +1,8 @@
 
 const PRODUCTS = [
-  {slug:'melatonin', name:'Melatonin Gummies', price:1640, benefit:'Dormir mejor', desc:'Sueño profundo y relajación natural.', img:'product-melatonin.png'},
-  {slug:'adult-multivitamins', name:'Adult Multivitamins', price:1640, benefit:'Energía diaria', desc:'Energía, enfoque y bienestar diario.', img:'product-adult.png'},
-  {slug:'biotin-collagen-keratin', name:'Biotin Collagen Keratin', price:1640, benefit:'Cabello, piel y uñas', desc:'Cabello, piel y uñas más fuertes.', img:'product-biotin.png'}
+  {slug:'melatonin', name:'Melatonin Gummies', price:1850, benefit:'Dormir mejor', desc:'Sueño profundo y relajación natural.', img:'product-melatonin.png'},
+  {slug:'adult-multivitamins', name:'Adult Multivitamins', price:1850, benefit:'Energía diaria', desc:'Energía, enfoque y bienestar diario.', img:'product-adult.png'},
+  {slug:'biotin-collagen-keratin', name:'Biotin Collagen Keratin', price:1850, benefit:'Cabello, piel y uñas', desc:'Cabello, piel y uñas más fuertes.', img:'product-biotin.png'}
 ];
 const $ = (s)=>document.querySelector(s);
 const $$ = (s)=>document.querySelectorAll(s);
