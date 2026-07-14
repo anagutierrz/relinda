@@ -236,3 +236,53 @@ main{overflow:hidden}
 .section-head h2,.page-hero h1,.hero-copy h1{max-width:12ch}
 .value-grid span{background:linear-gradient(180deg,#fff,#f9efec)}
 .mobile-bottom-bar a:last-child{background:linear-gradient(135deg,var(--ink),#4f295e)}
+
+
+/* ===== Relinda v3 three-pillar section ===== */
+.pillar-home{padding-top:40px}
+.pillars-topline{display:flex;justify-content:space-between;align-items:center;gap:20px;margin-bottom:18px;flex-wrap:wrap}
+.pillars-kicker{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--primary);font-weight:800}
+.pillars-heading{display:grid;grid-template-columns:1.2fr .9fr;gap:36px;align-items:end;margin-bottom:26px}
+.pillars-heading h2{font-size:clamp(38px,5vw,86px);line-height:.92;letter-spacing:-.05em;max-width:10ch;margin:0}
+.pillars-heading p{font-size:18px;line-height:1.65;color:var(--muted);max-width:60ch;margin:0 0 8px}
+.pillar-layout{display:grid;grid-template-columns:1.08fr .92fr .92fr;gap:22px;align-items:stretch}
+.pillar-card{position:relative;overflow:hidden;border:1px solid var(--line);border-radius:34px;min-height:520px;padding:30px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:var(--shadow);isolation:isolate}
+.pillar-card:before{content:"";position:absolute;inset:auto -12% -40% auto;width:240px;height:240px;border-radius:50%;filter:blur(6px);opacity:.55;z-index:-1}
+.pillar-card--sleep{background:linear-gradient(180deg,#f4eafa 0%, #fdf9fd 100%)}
+.pillar-card--sleep:before{background:radial-gradient(circle, rgba(141,108,255,.28), rgba(255,255,255,0) 66%)}
+.pillar-card--energy{background:linear-gradient(180deg,#171218 0%, #2b1837 100%);color:#fff}
+.pillar-card--energy .pillar-card-copy p,.pillar-card--energy .pillar-price,.pillar-card--energy .pillar-mini{color:rgba(255,255,255,.8)}
+.pillar-card--energy .pillar-word{color:rgba(255,255,255,.08)}
+.pillar-card--energy .btn.ghost{border-color:rgba(255,255,255,.25);color:#fff;background:rgba(255,255,255,.06)}
+.pillar-card--energy:before{background:radial-gradient(circle, rgba(255,95,148,.32), rgba(255,255,255,0) 70%)}
+.pillar-card--wellness{background:linear-gradient(180deg,#fff1f6 0%, #fff9fb 100%)}
+.pillar-card--wellness:before{background:radial-gradient(circle, rgba(255,95,148,.24), rgba(255,255,255,0) 68%)}
+.pillar-card-copy{max-width:36ch;position:relative;z-index:2}
+.pillar-mini{display:inline-block;margin-bottom:10px;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--primary);font-weight:800}
+.pillar-card h3{font-size:clamp(34px,3.8vw,58px);line-height:.95;letter-spacing:-.04em;margin:0 0 10px}
+.pillar-card p{font-size:17px;line-height:1.6;color:var(--muted);margin:0 0 18px}
+.pillar-card ul{list-style:none;padding:0;margin:0 0 22px;display:flex;flex-wrap:wrap;gap:10px}
+.pillar-card ul li{padding:10px 14px;border-radius:999px;background:rgba(255,255,255,.68);border:1px solid rgba(122,92,255,.12);font-weight:700;font-size:14px}
+.pillar-actions{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.pillar-price{font-weight:800;font-size:16px;color:var(--ink)}
+.pillar-card-media{display:flex;align-items:end;justify-content:flex-end;position:relative;z-index:2}
+.pillar-card-media img{width:min(100%,260px);filter:drop-shadow(0 22px 28px rgba(26,18,24,.15));transform:translateY(8px)}
+.pillar-card-media.small img{width:min(100%,230px)}
+.media-note{position:absolute;left:0;bottom:16px;background:rgba(255,255,255,.82);backdrop-filter:blur(8px);border:1px solid rgba(122,92,255,.12);padding:9px 14px;border-radius:999px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:var(--ink)}
+.pillar-word{position:absolute;right:18px;bottom:12px;font-size:clamp(42px,7vw,92px);line-height:.9;font-weight:900;letter-spacing:-.06em;color:rgba(24,18,24,.06);z-index:1;pointer-events:none}
+@media (max-width: 1120px){
+  .pillars-heading{grid-template-columns:1fr;gap:14px}
+  .pillar-layout{grid-template-columns:1fr 1fr}
+  .pillar-card--sleep{grid-column:1/-1;min-height:460px}
+}
+@media (max-width: 720px){
+  .pillars-topline{align-items:flex-start}
+  .pillars-heading h2{font-size:clamp(34px,11vw,52px);max-width:9ch}
+  .pillars-heading p{font-size:16px}
+  .pillar-layout{grid-template-columns:1fr}
+  .pillar-card{min-height:auto;padding:24px}
+  .pillar-card h3{font-size:36px}
+  .pillar-card-media{justify-content:center;margin-top:8px}
+  .pillar-card-media img,.pillar-card-media.small img{width:min(100%,220px)}
+  .pillar-word{font-size:48px;right:14px;bottom:10px}
+}

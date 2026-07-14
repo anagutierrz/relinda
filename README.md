@@ -1,9 +1,11 @@
-# Relinda — Fashion Wellness v2
+# Relinda — Fashion Wellness v3
 
-Versión con enfoque más internacional y aspiracional.
+Se reemplazó la antigua sección circular por una sección editorial de **3 pilares** más coherente con la estructura de marca y los objetivos de compra:
+- Descanso
+- Energía
+- Bienestar
 
-## Ajustes aplicados
-- Concepto visual fashion-wellness.
-- Diseño más disruptivo, editorial y elegante.
-- Precio actualizado de las gomitas: DOP$1,850.
-- Mantiene estructura responsive, tienda, carrito y base para WooCommerce + Stripe.
+## Inspiración aplicada
+- Jerarquía tipográfica más editorial inspirada en Create & Cultivate.
+- Enfoque de producto premium inspirado en Lemme.
+- Diseño más claro para conversión dentro de una tienda digital.
