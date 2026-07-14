@@ -1,11 +1,8 @@
-# Relinda — Fashion Wellness v3
+# Relinda Store Clean v4
 
-Se reemplazó la antigua sección circular por una sección editorial de **3 pilares** más coherente con la estructura de marca y los objetivos de compra:
-- Descanso
-- Energía
-- Bienestar
-
-## Inspiración aplicada
-- Jerarquía tipográfica más editorial inspirada en Create & Cultivate.
-- Enfoque de producto premium inspirado en Lemme.
-- Diseño más claro para conversión dentro de una tienda digital.
+Ajustes aplicados:
+- Menos texto y más aire visual.
+- Logo del header más visible.
+- Home más orientado a tienda.
+- Sección de pilares simplificada.
+- Ajustes extra de responsive para móvil.
