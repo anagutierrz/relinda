@@ -1,15 +1,14 @@
-# Relinda Dynamic Store
+# Relinda — versión disruptiva, elegante y creativa
 
-Proyecto estático listo para GitHub Pages.
+Esta versión refuerza la dirección visual de marca con un enfoque más editorial y premium.
 
-## Cómo subir
-1. Sube todos los archivos a la raíz del repositorio.
-2. Verifica que `index.html`, `styles.css`, `script.js` y las imágenes estén al mismo nivel.
-3. Activa GitHub Pages desde Settings > Pages > Branch: main > /root.
+## Ajustes aplicados
+- Home más disruptivo y aspiracional.
+- Mejor jerarquía visual.
+- Estilo elegante con energía creativa.
+- Diseño responsive para desktop y móvil.
+- Archivos `styles.css` y `script.js` incluidos.
+- Estructura lista para adaptación a WooCommerce + Stripe.
 
-Incluye:
-- Hero dinámico con productos.
-- Productos en PNG con fondo transparente.
-- Carrito demo con localStorage.
-- Checkout por WhatsApp.
-- Filtros, buscador, vista rápida y páginas individuales.
+## Recomendación
+Usar esta versión como base visual para montar el tema en WordPress + WooCommerce en Hostinger.
