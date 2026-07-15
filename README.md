@@ -1,8 +1,8 @@
-# Relinda Store Clean v4
+# Relinda Disruptive Elegant v5
 
-Ajustes aplicados:
-- Menos texto y más aire visual.
-- Logo del header más visible.
-- Home más orientado a tienda.
-- Sección de pilares simplificada.
-- Ajustes extra de responsive para móvil.
+Versión con enfoque más disruptivo sin perder elegancia:
+- Home más editorial y visual.
+- Mejor jerarquía para tienda.
+- 3 pilares más claros.
+- Mobile first mejorado.
+- Incluye styles.css y script.js para funcionamiento base.
