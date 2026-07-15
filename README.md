@@ -1,9 +1,13 @@
-# Relinda v9 - disruptive boost
+# Relinda v10 — Disruptiva sin romper marca
 
-Ajustes aplicados para empujar el look hacia un concepto más disruptivo sin perder elegancia:
-- Hero con mensaje más corto y más editorial.
-- Elementos gráficos flotantes (sticker de precio y side note).
-- Banda divisora tipo editorial para generar ritmo visual.
-- Tarjetas de pilares con más asimetría.
-- Product grid con una tarjeta destacada y composición menos plana.
-- Newsletter con mayor contraste y presencia.
+Esta versión traduce el mockup aprobado a código HTML/CSS/JS:
+
+- Hero más editorial con serif + italic.
+- Chica corredora integrada con mejor tamaño.
+- Producto protagonista con sticker de precio.
+- Banda editorial Sleep / Energy / Beauty / Relinda.
+- Sección de 3 pilares más disruptiva y organizada.
+- Best sellers con tarjeta destacada.
+- Mantiene colores de marca: blush, plum, lilac y acento lime.
+- Precio actualizado: DOP$1,850.
+- Lista para continuar adaptación a WooCommerce + Stripe.
