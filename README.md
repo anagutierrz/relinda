@@ -1,9 +1,9 @@
-# Relinda v8 - hero + jerarquía visual
+# Relinda v9 - disruptive boost
 
-Cambios aplicados:
-- Hero principal más limpio y con titular más corto.
-- Chica corredora mejor integrada al hero.
-- Logo real recortado y mucho más visible en header/footer.
-- Menú reducido para simplificar navegación.
-- Reorganización del home: hero → pilares → best sellers → señales de compra → eventos → newsletter.
-- Menos ruido visual y mejor jerarquía para versión web.
+Ajustes aplicados para empujar el look hacia un concepto más disruptivo sin perder elegancia:
+- Hero con mensaje más corto y más editorial.
+- Elementos gráficos flotantes (sticker de precio y side note).
+- Banda divisora tipo editorial para generar ritmo visual.
+- Tarjetas de pilares con más asimetría.
+- Product grid con una tarjeta destacada y composición menos plana.
+- Newsletter con mayor contraste y presencia.
