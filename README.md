@@ -1,8 +1,9 @@
-# Relinda Disruptive Elegant v5
+# Relinda Disruptive Elegant v6 (web fixes)
 
-Versión con enfoque más disruptivo sin perder elegancia:
-- Home más editorial y visual.
-- Mejor jerarquía para tienda.
-- 3 pilares más claros.
-- Mobile first mejorado.
-- Incluye styles.css y script.js para funcionamiento base.
+Ajustes aplicados según revisión web:
+- Header con logo más visible y legible.
+- Mejor organización de secciones en Home.
+- Corrección de contraste en frases y newsletter.
+- Shop con hero más estructurado para desktop.
+- Footer con branding más claro.
+- Mantiene responsive y base WooCommerce-ready.
