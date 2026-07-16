@@ -2332,3 +2332,180 @@ p{color:var(--muted); line-height:1.7; margin:0 0 14px}
     bottom:8px !important;
   }
 }
+
+
+/* ===== V22 - Corrección fuerte: hero sin vacío superior ===== */
+
+.hero-no-runner,
+.hero-v17,
+.hero-v10,
+.hero{
+  min-height:auto !important;
+}
+
+.hero-no-runner{
+  display:grid !important;
+  grid-template-columns:.95fr 1.05fr !important;
+  align-items:start !important;
+  gap:28px !important;
+  padding-top:38px !important;
+  padding-bottom:36px !important;
+  margin-top:0 !important;
+}
+
+.hero-no-runner .hero-copy{
+  align-self:start !important;
+  padding-top:0 !important;
+  margin-top:0 !important;
+  max-width:520px !important;
+}
+
+.hero-no-runner .eyebrow{
+  margin-top:0 !important;
+  margin-bottom:10px !important;
+}
+
+.hero-no-runner .hero-title{
+  font-size:clamp(46px,4.8vw,72px) !important;
+  line-height:.9 !important;
+  max-width:9ch !important;
+  margin:0 0 14px !important;
+}
+
+.hero-no-runner .hero-copy p:not(.eyebrow){
+  max-width:350px !important;
+  font-size:16px !important;
+  line-height:1.55 !important;
+}
+
+.hero-no-runner .hero-stage{
+  min-height:360px !important;
+  height:360px !important;
+  align-self:start !important;
+  margin-top:0 !important;
+  padding-top:0 !important;
+  display:flex !important;
+  align-items:start !important;
+  justify-content:center !important;
+}
+
+.hero-no-runner .hero-composition{
+  width:min(390px,100%) !important;
+  height:340px !important;
+  margin:0 auto !important;
+  position:relative !important;
+}
+
+.hero-no-runner .hero-product-showcase{
+  width:210px !important;
+  left:92px !important;
+  bottom:78px !important;
+}
+
+.hero-no-runner .hero-product-showcase:before{
+  content:"SHOP RELINDA" !important;
+  font-size:42px !important;
+  left:-16px !important;
+  bottom:-12px !important;
+}
+
+.hero-no-runner .hero-price-sticker{
+  left:30px !important;
+  top:34px !important;
+  padding:10px 13px !important;
+}
+
+.hero-no-runner .hero-price-sticker strong{
+  font-size:18px !important;
+}
+
+.hero-no-runner .hero-mini-card{
+  left:28px !important;
+  bottom:42px !important;
+  max-width:180px !important;
+}
+
+.hero-no-runner .hero-longevity-chip{
+  right:10px !important;
+  top:86px !important;
+  font-size:9px !important;
+  padding:10px 8px !important;
+}
+
+.hero-no-runner .hero-tabs{
+  left:50% !important;
+  bottom:4px !important;
+  transform:translateX(-50%) !important;
+}
+
+.hero-no-runner .shape-one{
+  width:300px !important;
+  height:300px !important;
+  right:50px !important;
+  top:24px !important;
+  opacity:.42 !important;
+}
+
+.hero-no-runner .shape-two{
+  width:190px !important;
+  height:240px !important;
+  right:70px !important;
+  top:52px !important;
+  opacity:.14 !important;
+}
+
+.editorial-divider-v16{
+  margin-top:8px !important;
+}
+
+@media (max-width:980px){
+  .hero-no-runner{
+    grid-template-columns:1fr !important;
+    gap:18px !important;
+    padding-top:28px !important;
+  }
+  .hero-no-runner .hero-stage{
+    height:320px !important;
+    min-height:320px !important;
+  }
+  .hero-no-runner .hero-composition{
+    height:300px !important;
+  }
+}
+
+@media (max-width:760px){
+  .hero-no-runner{
+    padding-top:22px !important;
+    padding-bottom:24px !important;
+  }
+  .hero-no-runner .hero-title{
+    font-size:clamp(38px,11vw,52px) !important;
+  }
+  .hero-no-runner .hero-stage{
+    height:255px !important;
+    min-height:255px !important;
+  }
+  .hero-no-runner .hero-composition{
+    width:280px !important;
+    height:240px !important;
+  }
+  .hero-no-runner .hero-product-showcase{
+    width:120px !important;
+    left:76px !important;
+    bottom:62px !important;
+  }
+  .hero-no-runner .hero-product-showcase:before{
+    font-size:28px !important;
+  }
+  .hero-no-runner .hero-mini-card{
+    display:none !important;
+  }
+  .hero-no-runner .hero-price-sticker{
+    left:8px !important;
+    top:8px !important;
+  }
+  .hero-no-runner .hero-longevity-chip{
+    right:4px !important;
+    top:72px !important;
+  }
+}
