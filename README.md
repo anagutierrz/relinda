@@ -1,7 +1,10 @@
-# Relinda Web v11 — 3 productos + eventos en header
+# Relinda Web v12 — editorial, eventos y 3 productos
 
-Ajustes aplicados:
-- Header actualizado con: Inicio, Tienda, Beneficios, Eventos, Contacto.
-- Estructura de la tienda enfocada en 3 productos activos.
-- Sección de eventos integrada para mostrar eventos a los que la marca ha ido y próximos eventos.
-- Añadidos `styles.css` y `script.js` para que el sitio funcione correctamente.
+Ajustes principales:
+- Header con Eventos integrado.
+- Home reforzado para una estructura actual de solo 3 productos.
+- Textos más premium/editoriales.
+- Sección de eventos más fuerte: eventos asistidos, próximos y por anunciar.
+- Tienda preparada para crecer más adelante sin romper la estructura.
+- Precio actual: DOP$1,850.
+- Incluye styles.css y script.js.
