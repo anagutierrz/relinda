@@ -1436,3 +1436,154 @@ p{color:var(--muted); line-height:1.7; margin:0 0 14px}
     grid-template-columns:1fr !important;
   }
 }
+
+
+/* ===== V17 - mujer de fondo grande y traslúcida ===== */
+
+.hero-v17{
+  position:relative;
+  overflow:hidden;
+  isolation:isolate;
+}
+
+.hero-v17::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background-image:url('runner-model-v2.png');
+  background-repeat:no-repeat;
+  background-position:right 2% center;
+  background-size:760px auto;
+  opacity:.16;
+  pointer-events:none;
+  z-index:0;
+  filter:saturate(.9) contrast(1.02);
+}
+
+.hero-v17 .hero-copy,
+.hero-v17 .hero-stage,
+.hero-v17 .blob{
+  position:relative;
+  z-index:2;
+}
+
+.hero-v17 .hero-runner-panel{
+  display:none !important;
+}
+
+.hero-v17 .hero-stage{
+  min-height:520px !important;
+}
+
+.hero-v17 .hero-composition{
+  width:min(430px,100%) !important;
+  height:390px !important;
+  margin-left:auto !important;
+}
+
+.hero-v17 .hero-product-showcase{
+  width:190px !important;
+  left:64px !important;
+  bottom:108px !important;
+}
+
+.hero-v17 .hero-product-showcase:before{
+  content:"SHOP RELINDA" !important;
+  font-size:62px !important;
+  left:-18px !important;
+  bottom:-20px !important;
+  color:rgba(171,115,135,.12) !important;
+}
+
+.hero-v17 .hero-price-sticker{
+  left:34px !important;
+  top:90px !important;
+}
+
+.hero-v17 .hero-mini-card{
+  left:28px !important;
+  bottom:38px !important;
+  max-width:220px !important;
+}
+
+.hero-v17 .hero-longevity-chip{
+  right:-6px !important;
+  top:118px !important;
+  bottom:auto !important;
+}
+
+.hero-v17 .hero-tabs{
+  left:56% !important;
+  bottom:26px !important;
+}
+
+.hero-v17 .shape-one{
+  width:470px !important;
+  height:470px !important;
+  right:4% !important;
+  top:40px !important;
+  opacity:.7;
+}
+
+.hero-v17 .shape-two{
+  width:300px !important;
+  height:360px !important;
+  right:0 !important;
+  top:32px !important;
+  opacity:.35;
+}
+
+@media (max-width: 1200px){
+  .hero-v17::after{
+    background-size:620px auto;
+    background-position:right -2% center;
+  }
+  .hero-v17 .hero-composition{
+    width:min(380px,100%) !important;
+  }
+  .hero-v17 .hero-product-showcase{
+    left:42px !important;
+    width:170px !important;
+  }
+}
+
+@media (max-width: 760px){
+  .hero-v17::after{
+    background-size:420px auto;
+    background-position:right -80px top 20px;
+    opacity:.12;
+  }
+  .hero-v17 .hero-stage{
+    min-height:320px !important;
+  }
+  .hero-v17 .hero-composition{
+    width:100% !important;
+    height:290px !important;
+  }
+  .hero-v17 .hero-product-showcase{
+    width:128px !important;
+    left:8px !important;
+    bottom:74px !important;
+  }
+  .hero-v17 .hero-product-showcase:before{
+    font-size:38px !important;
+    left:-4px !important;
+    bottom:-16px !important;
+  }
+  .hero-v17 .hero-price-sticker{
+    left:10px !important;
+    top:18px !important;
+  }
+  .hero-v17 .hero-mini-card{
+    display:none !important;
+  }
+  .hero-v17 .hero-longevity-chip{
+    top:82px !important;
+    right:-2px !important;
+    font-size:8px !important;
+  }
+  .hero-v17 .hero-tabs{
+    left:50% !important;
+    bottom:8px !important;
+  }
+}

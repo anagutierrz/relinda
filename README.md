@@ -1,8 +1,7 @@
-# Relinda Web v16 — hero y home pulidos
+# Relinda Web v17
 
 Cambios aplicados:
-- Reorganización más limpia del lado derecho del hero.
-- Frase inicial más corta e incluye longevidad.
-- La sección de objetivos ya no usa botones gigantes; ahora es un bloque organizado.
-- Pilares, productos y eventos más proporcionados.
-- Mantiene Eventos en header y estructura para 3 productos.
+- La mujer ahora va grande, traslúcida y de fondo en toda la primera sección.
+- Se eliminó el bloque rígido de la derecha con la foto en tarjeta.
+- Se mantuvo el producto, tabs y badges con una composición más limpia.
+- Texto inicial más corto y con mención a longevidad.
