@@ -1,6 +1,3 @@
-# Relinda Web v22 — Hero sin vacío superior
+# Relinda Web v23
 
-- Se eliminó la altura innecesaria del hero.
-- El contenido inicia arriba, justo después del header.
-- La composición derecha queda compacta.
-- Se mantiene sin la mujer.
+Hero reconstruido desde cero para eliminar el vacío superior y limpiar la primera sección.

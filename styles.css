@@ -2509,3 +2509,214 @@ p{color:var(--muted); line-height:1.7; margin:0 0 14px}
     top:72px !important;
   }
 }
+
+
+/* ===== V23 - Hero reconstruido desde cero ===== */
+.hero-v23{
+  width:min(var(--max), calc(100% - 48px));
+  margin:0 auto;
+  display:grid;
+  grid-template-columns:minmax(0, 520px) minmax(0, 1fr);
+  align-items:center;
+  gap:34px;
+  padding:34px 0 28px;
+  min-height:auto !important;
+  overflow:visible;
+}
+.hero-v23 .hero-copy{
+  max-width:520px;
+  align-self:center;
+}
+.hero-v23 .eyebrow{margin:0 0 12px;}
+.hero-v23 .hero-title{
+  font-family:Outfit, Inter, system-ui, sans-serif;
+  font-size:clamp(48px, 5vw, 78px);
+  line-height:.92;
+  letter-spacing:-.07em;
+  margin:0 0 14px;
+  max-width:8.7ch;
+}
+.hero-v23 .hero-title span,
+.hero-v23 .hero-title em{display:block; font-style:normal; font-weight:900;}
+.hero-v23 .hero-copy p:not(.eyebrow){
+  font-size:16px;
+  line-height:1.55;
+  max-width:32ch;
+  margin-bottom:0;
+}
+.hero-v23 .actions{margin:20px 0 18px;}
+.hero-v23 .mini-stats-v23{
+  display:grid;
+  grid-template-columns:repeat(3, minmax(0,1fr));
+  gap:10px;
+  max-width:520px;
+}
+.hero-v23 .mini-stats-v23 span{
+  display:block;
+  padding:14px 14px 13px;
+  background:rgba(255,255,255,.78);
+  border:1px solid var(--line);
+  border-radius:18px;
+  box-shadow:0 18px 40px rgba(51,31,43,.05);
+}
+.hero-v23 .mini-stats-v23 i{
+  display:block;
+  width:auto;height:auto;
+  background:transparent;
+  color:#aa7387;
+  font-style:normal;
+  font-size:11px;
+  letter-spacing:.14em;
+  margin-bottom:6px;
+}
+.hero-v23 .mini-stats-v23 b{display:block; font-size:14px; line-height:1.1;}
+.hero-v23 .mini-stats-v23 small{display:block; margin-top:4px; font-size:10.5px; line-height:1.25; color:var(--muted);}
+
+.hero-v23 .hero-stage{
+  min-height:340px;
+  height:auto;
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.hero-v23 .hero-v23-orb{
+  position:absolute;
+  border-radius:50%;
+  pointer-events:none;
+}
+.hero-v23 .hero-v23-orb-main{
+  width:340px; height:340px;
+  right:52px; top:8px;
+  background:radial-gradient(circle at 35% 35%, rgba(255,255,255,.88), rgba(240,216,223,.65), rgba(255,255,255,.05));
+  border:1px solid rgba(171,115,135,.14);
+}
+.hero-v23 .hero-v23-orb-soft{
+  width:440px; height:440px;
+  right:-24px; top:-36px;
+  background:radial-gradient(circle, rgba(243,226,232,.75), rgba(255,255,255,0) 70%);
+  opacity:.7;
+}
+.hero-v23 .hero-composition{
+  position:relative;
+  width:min(430px, 100%);
+  height:330px;
+  margin:0 auto;
+}
+.hero-v23 .hero-product-showcase{
+  position:absolute;
+  left:106px;
+  bottom:68px;
+  width:190px;
+  z-index:4;
+}
+.hero-v23 .hero-product-showcase:before{
+  content:'RELINDA';
+  position:absolute;
+  left:-12px;
+  bottom:-16px;
+  font-size:52px;
+  font-family:Outfit, Inter, system-ui, sans-serif;
+  font-weight:900;
+  letter-spacing:-.08em;
+  color:rgba(171,115,135,.12);
+  white-space:nowrap;
+}
+.hero-v23 .showcase-product{display:none; filter:drop-shadow(0 18px 28px rgba(54,34,46,.16));}
+.hero-v23 .showcase-product.active{display:block;}
+.hero-v23 .hero-price-sticker{
+  position:absolute;
+  left:36px;
+  top:44px;
+  z-index:7;
+  background:#fff;
+  border:1px solid var(--line);
+  box-shadow:var(--shadow);
+  padding:10px 14px;
+  border-radius:16px;
+  font-weight:900;
+  transform:rotate(-8deg);
+  text-transform:uppercase;
+  color:var(--muted);
+  font-size:12px;
+}
+.hero-v23 .hero-price-sticker strong{display:block; font-size:18px; color:var(--text);}
+.hero-v23 .hero-longevity-chip{
+  position:absolute;
+  right:10px;
+  top:86px;
+  z-index:7;
+  writing-mode:vertical-rl;
+  text-orientation:mixed;
+  border-radius:999px;
+  padding:12px 8px;
+  background:linear-gradient(180deg, #a16cf2, #f05fae);
+  color:#fff;
+  font-size:9px;
+  text-transform:uppercase;
+  font-weight:900;
+  letter-spacing:.18em;
+}
+.hero-v23 .hero-mini-card{
+  position:absolute;
+  left:34px;
+  bottom:42px;
+  z-index:7;
+  display:grid;
+  gap:4px;
+  background:rgba(255,255,255,.9);
+  border:1px solid var(--line);
+  border-radius:18px;
+  padding:12px 14px;
+  box-shadow:var(--shadow);
+}
+.hero-v23 .hero-mini-card span{font-size:11px; text-transform:uppercase; letter-spacing:.12em; color:#aa7387; font-weight:900;}
+.hero-v23 .hero-mini-card strong{font-size:15px; line-height:1.15;}
+.hero-v23 .hero-tabs{
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+  bottom:-6px;
+  display:flex;
+  gap:8px;
+  padding:6px;
+  border-radius:999px;
+  background:#fff;
+  box-shadow:var(--shadow);
+  z-index:8;
+}
+.hero-v23 .hero-tabs button{border:0; background:transparent; border-radius:999px; padding:10px 14px; font-weight:900; color:var(--muted);}
+.hero-v23 .hero-tabs button.active{background:var(--plum); color:#fff;}
+
+.editorial-divider-v10, .editorial-divider-v16{padding-top:8px !important; margin-top:0 !important;}
+
+@media (max-width:1200px){
+  .hero-v23{grid-template-columns:minmax(0,480px) minmax(0,1fr); gap:26px;}
+  .hero-v23 .hero-composition{width:min(390px,100%); height:320px;}
+  .hero-v23 .hero-product-showcase{left:84px; width:180px; bottom:70px;}
+  .hero-v23 .hero-v23-orb-main{right:30px;}
+}
+@media (max-width:980px){
+  .hero-v23{grid-template-columns:1fr; gap:18px; padding:24px 0 18px;}
+  .hero-v23 .hero-copy{max-width:100%;}
+  .hero-v23 .hero-stage{min-height:300px;}
+  .hero-v23 .hero-composition{width:min(360px,100%); height:300px;}
+  .hero-v23 .hero-v23-orb-main{right:calc(50% - 170px); top:8px;}
+  .hero-v23 .hero-v23-orb-soft{right:calc(50% - 220px);}
+}
+@media (max-width:760px){
+  .hero-v23{padding:18px 0 12px;}
+  .hero-v23 .hero-title{font-size:clamp(40px,11vw,56px); max-width:8.8ch;}
+  .hero-v23 .mini-stats-v23{grid-template-columns:1fr;}
+  .hero-v23 .hero-stage{min-height:260px;}
+  .hero-v23 .hero-composition{width:280px; height:245px;}
+  .hero-v23 .hero-v23-orb-main{width:250px; height:250px; right:calc(50% - 125px); top:8px;}
+  .hero-v23 .hero-v23-orb-soft{width:320px; height:320px; right:calc(50% - 160px); top:-12px;}
+  .hero-v23 .hero-product-showcase{width:120px; left:74px; bottom:58px;}
+  .hero-v23 .hero-product-showcase:before{font-size:30px; left:-6px; bottom:-8px;}
+  .hero-v23 .hero-price-sticker{left:8px; top:12px; padding:8px 10px;}
+  .hero-v23 .hero-longevity-chip{right:0; top:72px; font-size:8px;}
+  .hero-v23 .hero-mini-card{display:none;}
+  .hero-v23 .hero-tabs{bottom:-2px;}
+  .hero-v23 .hero-tabs button{padding:9px 12px; font-size:12px;}
+}
