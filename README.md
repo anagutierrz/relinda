@@ -1,7 +1,7 @@
-# Relinda Web v17
+# Relinda Web v18 — hero corregido
 
 Cambios aplicados:
-- La mujer ahora va grande, traslúcida y de fondo en toda la primera sección.
-- Se eliminó el bloque rígido de la derecha con la foto en tarjeta.
-- Se mantuvo el producto, tabs y badges con una composición más limpia.
-- Texto inicial más corto y con mención a longevidad.
+- Se eliminó el espacio vacío superior del hero.
+- La mujer queda como fondo grande y traslúcido sin empujar el contenido.
+- El producto vuelve a tener mejor protagonismo.
+- Texto, precio, tabs y mini card se reorganizaron para verse más balanceados.

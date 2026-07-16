@@ -1587,3 +1587,171 @@ p{color:var(--muted); line-height:1.7; margin:0 0 14px}
     bottom:8px !important;
   }
 }
+
+
+/* ===== V18 - corrección de hero: sin vacío superior ===== */
+
+/* El hero ya no queda centrado hacia abajo; empieza justo después del header */
+.hero-v17{
+  min-height:calc(100vh - 116px) !important;
+  padding-top:34px !important;
+  padding-bottom:34px !important;
+  align-items:center !important;
+}
+
+/* Fondo de la mujer: grande, traslúcido y ocupando la primera sección sin empujar contenido */
+.hero-v17::after{
+  background-size:min(900px, 62vw) auto !important;
+  background-position:right 0 top 48% !important;
+  opacity:.13 !important;
+}
+
+/* Balance de texto */
+.hero-v17 .hero-copy{
+  padding-top:0 !important;
+  align-self:center !important;
+}
+.hero-v17 .hero-title{
+  font-size:clamp(46px,5.2vw,78px) !important;
+  line-height:.9 !important;
+  max-width:9.2ch !important;
+}
+.hero-v17 .hero-copy p:not(.eyebrow){
+  max-width:380px !important;
+}
+
+/* Lado derecho: producto más protagonista, sin tarjeta de mujer */
+.hero-v17 .hero-stage{
+  min-height:500px !important;
+  align-self:center !important;
+}
+.hero-v17 .hero-composition{
+  height:430px !important;
+  width:min(500px,100%) !important;
+  margin-left:auto !important;
+}
+.hero-v17 .hero-product-showcase{
+  width:230px !important;
+  left:92px !important;
+  bottom:116px !important;
+}
+.hero-v17 .hero-product-showcase:before{
+  content:"RELINDA" !important;
+  font-size:64px !important;
+  left:-14px !important;
+  bottom:-24px !important;
+}
+.hero-v17 .hero-price-sticker{
+  left:72px !important;
+  top:74px !important;
+}
+.hero-v17 .hero-longevity-chip{
+  right:30px !important;
+  top:112px !important;
+  bottom:auto !important;
+}
+.hero-v17 .hero-mini-card{
+  left:72px !important;
+  bottom:42px !important;
+}
+.hero-v17 .hero-tabs{
+  left:54% !important;
+  bottom:34px !important;
+}
+
+/* Suavizar shapes para que no parezca un bloque vacío */
+.hero-v17 .shape-one{
+  right:8% !important;
+  top:48px !important;
+  width:440px !important;
+  height:440px !important;
+  opacity:.52 !important;
+}
+.hero-v17 .shape-two{
+  right:10% !important;
+  top:72px !important;
+  opacity:.22 !important;
+}
+
+/* Quitar cualquier efecto heredado del bloque anterior */
+.hero-v17 .hero-runner-panel{
+  display:none !important;
+}
+
+/* Sección siguiente más cerca, para evitar salto visual */
+.editorial-divider-v16{
+  margin-top:0 !important;
+}
+
+/* Desktop pequeño / laptop */
+@media (max-width:1200px){
+  .hero-v17{
+    padding-top:28px !important;
+  }
+  .hero-v17::after{
+    background-size:min(760px, 64vw) auto !important;
+    background-position:right -80px top 50% !important;
+  }
+  .hero-v17 .hero-product-showcase{
+    left:48px !important;
+    width:210px !important;
+  }
+  .hero-v17 .hero-price-sticker{
+    left:34px !important;
+  }
+  .hero-v17 .hero-mini-card{
+    left:34px !important;
+  }
+}
+
+/* Tablet */
+@media (max-width:980px){
+  .hero-v17{
+    grid-template-columns:1fr !important;
+    padding-top:28px !important;
+  }
+  .hero-v17::after{
+    background-size:620px auto !important;
+    background-position:right -160px top 18px !important;
+    opacity:.10 !important;
+  }
+  .hero-v17 .hero-stage{
+    min-height:380px !important;
+  }
+  .hero-v17 .hero-composition{
+    margin:0 auto !important;
+    height:360px !important;
+  }
+}
+
+/* Mobile */
+@media (max-width:760px){
+  .hero-v17{
+    padding-top:24px !important;
+    min-height:auto !important;
+  }
+  .hero-v17::after{
+    background-size:430px auto !important;
+    background-position:right -120px top 10px !important;
+    opacity:.10 !important;
+  }
+  .hero-v17 .hero-stage{
+    min-height:300px !important;
+  }
+  .hero-v17 .hero-composition{
+    height:280px !important;
+  }
+  .hero-v17 .hero-product-showcase{
+    width:138px !important;
+    left:10px !important;
+    bottom:72px !important;
+  }
+  .hero-v17 .hero-price-sticker{
+    left:8px !important;
+    top:14px !important;
+  }
+  .hero-v17 .hero-longevity-chip{
+    right:0 !important;
+    top:74px !important;
+  }
+}
