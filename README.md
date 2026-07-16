@@ -1,7 +1,9 @@
-# Relinda Web v18 — hero corregido
+# Relinda Web v20 — Home final polish
 
 Cambios aplicados:
-- Se eliminó el espacio vacío superior del hero.
-- La mujer queda como fondo grande y traslúcido sin empujar el contenido.
-- El producto vuelve a tener mejor protagonismo.
-- Texto, precio, tabs y mini card se reorganizaron para verse más balanceados.
+- Hero más compacto y mejor balanceado.
+- Frase principal más corta.
+- La mujer queda como fondo traslúcido, sin crear vacío superior.
+- Producto, precio y tabs más organizados.
+- Bloque de objetivos más pequeño y premium.
+- Home lista para revisión final.
