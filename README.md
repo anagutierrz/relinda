@@ -1,10 +1,10 @@
-# Relinda Web v12 — editorial, eventos y 3 productos
+# Relinda Web v13 — fuentes y proporción ajustadas
 
-Ajustes principales:
-- Header con Eventos integrado.
-- Home reforzado para una estructura actual de solo 3 productos.
-- Textos más premium/editoriales.
-- Sección de eventos más fuerte: eventos asistidos, próximos y por anunciar.
-- Tienda preparada para crecer más adelante sin romper la estructura.
+Ajustes aplicados:
+- Se quitó la cursiva del hero.
+- Títulos con la misma línea visual bold/redonda del resto de la web.
+- Tamaños de fuente más controlados en desktop.
+- Hero más proporcionado.
+- Pilares, productos y eventos con mejor jerarquía visual.
+- Mantiene estructura de 3 productos + Eventos en header.
 - Precio actual: DOP$1,850.
-- Incluye styles.css y script.js.
